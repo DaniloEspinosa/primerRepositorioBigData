@@ -1,0 +1,13 @@
+Configuraciones basicas para iniciar en git
+
+git init
+
+git config --global user.name DaniloEspinosa        => Indicar el nombre de manera global (--global)
+
+git config --global user.email danilopespinosa@gmail.com      => Indicar el mail de manera global (--global)
+
+git config --global core.editor "code --wait"      => Instruccion para dejar la consola en espera hasta que se cierra el editor
+
+git config --global -e      => Esto sirve para ver las configuraciones globales de nuestro git
+
+git config --global core.autocrlf true      => Instruccion para poder compatibilizar archivos entre windows, linux y/o mac
