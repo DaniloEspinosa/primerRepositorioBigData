@@ -11,3 +11,9 @@ git config --global core.editor "code --wait"      => Instruccion para dejar la 
 git config --global -e      => Esto sirve para ver las configuraciones globales de nuestro git
 
 git config --global core.autocrlf true      => Instruccion para poder compatibilizar archivos entre windows, linux y/o mac
+
+git add (nombre del fichero)     => Pasar fichero a la fase stage
+
+git commit -m "Mensaje para saber que hemos hecho en este commit"
+
+git push -u origin main        => Comando para realizar la actualizacion de los archivos que estan commit en git hub
